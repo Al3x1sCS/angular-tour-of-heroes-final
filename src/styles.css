@@ -13,11 +13,11 @@
     h3 {
     font-size: 1.3rem;
     }
-    /*body {
-    padding: .5rem;
-    max-width: 1000px;
+    body {
+    background: #280046;
     margin: auto;
-    }*/
+    color: #FFF;
+    }
     @media (min-width: 600px) {
     body {
         padding: 2rem;
