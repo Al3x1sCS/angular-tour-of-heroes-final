@@ -1,0 +1,115 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Espaçamento entre os elementos */
+  padding: .5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.lista-heroes {
+  width: 42%; /* Largura da lista */
+  display: flex;
+}
+
+.info-heroes {
+  flex-grow: 1; /* O info-heroes vai ocupar o espaço restante */
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: block;
+    gap: 20px; /* Espaçamento entre os elementos */
+    padding: .5rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .lista-heroes {
+    width: 100%; /* Largura da lista */
+    display: flex;
+  }
+  .info-heroes{
+    width: 100%;
+  }
+  .heroes {
+    gap: 15px;
+  }
+  .heroes button {
+    height: 125px !important;
+    width: 125px !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .lista-heroes {
+    width: 50%;
+  }
+
+  .info-heroes {
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  .heroes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Garante duas colunas de heróis */
+  }
+}
+
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Exibe os itens da lista em linha */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha, se necessário */
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+.heroes li {
+  display: flex;
+}
+
+.heroes button {
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+  position: relative;
+  background-color: #EEE;
+  margin: .2em;
+  padding: 0;
+  border-radius: 10px;
+  align-items: stretch;
+  height: 200px;
+  width: 200px;
+}
+
+.heroes button:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.heroes button:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.heroes button.selected {
+  background-color: black;
+  color: white;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #405061;
+  line-height: 1em;
+  /*margin-right: .8em;*/
+  border-radius: 10px 0 0 10px;
+}
+
+.heroes .name {
+  align-self: center;
+}

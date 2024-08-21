@@ -1,0 +1,19 @@
+<div *ngIf="hero">
+    <h2>
+        <img [src]="hero.imageUrl" alt="" style="width:200px;height:200px;" />
+    </h2>
+    <div>
+        <label>name:
+            <input [(ngModel)]="hero.name" placeholder="name"/>
+        </label>
+        <span>id: </span>{{hero.id}}
+    </div>
+    <div>
+        <div>description:
+            <span>{{hero.description}}</span>         
+        </div>
+        <div>power:
+            <span>{{hero.power}}</span>
+        </div>
+    </div>
+</div>
