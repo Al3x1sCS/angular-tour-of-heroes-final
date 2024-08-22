@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 600px) {
-    header img{
+    .header img{
     margin: 0;
     }
 }

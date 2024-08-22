@@ -17,53 +17,6 @@
   width: 100%;
 }
 
-@media (max-width: 600px) {
-  .main {
-    display: block;
-    gap: 20px; /* Espaçamento entre os elementos */
-    padding: .5rem;
-    max-width: 1000px;
-    margin: auto;
-  }
-  .lista-heroes {
-    width: 100%; /* Largura da lista */
-    display: flex;
-  }
-  .info-heroes{
-    width: 100%;
-  }
-  .heroes {
-    gap: 15px;
-  }
-  .heroes button {
-    height: 125px !important;
-    width: 125px !important;
-  }
- 
-  .info-heroes img {
-     max-width: 100% !important;
-  }
-
-}
-
-@media (min-width: 1000px) {
-  .lista-heroes {
-    width: 30%;
-  }
-
-  .info-heroes {
-    width: 65%;
-    margin-left: 20px;
-    position: absolute;
-    left: 30%;
-    top: 0;
-  }
-
-  .heroes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Garante duas colunas de heróis */
-  }
-}
 
 .heroes {
   margin: 0 0 2em 0;
@@ -120,4 +73,57 @@
 .heroes .name {
   align-self: center;
   display: none;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: block;
+    gap: 20px; /* Espaçamento entre os elementos */
+    padding: .5rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+ .heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 20px 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .lista-heroes {
+    width: 100%; /* Largura da lista */
+    display: flex;
+  }
+  .info-heroes{
+    width: 100%;
+  }
+  .heroes button {
+    height: 125px !important;
+    width: 125px !important;
+  }
+ 
+  .info-heroes img {
+     max-width: 100% !important;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .lista-heroes {
+    width: 31%;
+  }
+
+  .info-heroes {
+    width: 65%;
+    margin-left: 20px;
+    position: absolute;
+    left: 30%;
+    top: 0;
+  }
+
+  .heroes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Garante duas colunas de heróis */
+  }
 }
