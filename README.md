@@ -1,27 +1,116 @@
-# AngularTourOfHeroes
+# PROJETO Tour of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
-## Development server
+O objetivo do miniprojeto "Tour of Heroes" é desenvolver uma aplicação que permite ao usuário explorar uma lista de 5 heróis fictícios. A aplicação deverá permitir a exibição de heróis criados, além de fornecer informações detalhadas sobre cada herói. O foco principal deste mini projeto é a utilização das tecnologias do Angular para construir uma interface interativa e responsiva.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 1. Visão Geral do Projeto
 
-## Code scaffolding
+**Objetivo:**
+- Criar uma aplicação onde o usuário pode criar e visualizar uma lista de super-heróis fictícios.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Público-Alvo:**
+- Usuários que desejam ter um catálogo de super-heróis acessível e interativo.
 
-## Build
+## 2. Funcionalidades Principais
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Tela principal exibindo uma lista de heróis fictícios.
+- Cada herói com nome, origem, poder, arqui-inimigo e imagem.
 
-## Running unit tests
+## 3. Metodologia de Trabalho
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Scrum:**
+- **Divisão de Tarefas:**
+  - Scrum Master e Programação Lógica: Alexis
+  - Programação Design: Aline
+  - Documentação: Marcelo
+  - QA e Testes: Veronica
+  - Apresentação: Marcelo e Veronica
 
-## Running end-to-end tests
+- **Reuniões:**
+  - Foram realizadas no mínimo 3 reuniões diárias:
+    - Reunião matinal entre Scrum Master e POs
+    - Daily de 5 a 15 minutos para definir tarefas
+    - Retrospectiva pós-almoço para revisão e planejamento das tarefas da tarde
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Ferramentas:**
+- **Trello:** Organização do quadro Kanban
+- **Visual Studio Code:** Desenvolvimento
+- **StackBlitz:** Codificação presencial
+- **Git/Github:** Controle de versão
+- **Excel:** Produção de gráficos
+- **Copilot:** Criação de imagens e descrições dos heróis
+- **Figma:** Wireframe
+- **Canva:** Criação visual
 
-## Further help
+## 4. Requisitos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Funcionais:**
+- Página de listagem de heróis
+- Página de detalhes dos heróis
+- Critérios de aceitação definidos para cada funcionalidade
+
+**Não-Funcionais:**
+- Layout responsivo utilizando Angular
+- Aplicação visualmente atraente e funcional
+
+## 5. Sprints
+
+O projeto foi dividido em 4 sprints, uma por dia:
+
+- **Sprint 1:**
+  - Configuração do ambiente de desenvolvimento
+  - Distribuição de papéis
+  - Criação dos heróis (Brainstorming)
+  - Gráfico Burndown
+  - Estudo do Angular
+
+- **Sprint 2:**
+  - Protótipo e wireframe
+  - Alteração das informações dos personagens
+  - Layout
+
+- **Sprint 3:**
+  - Definição dos requisitos funcionais e não funcionais
+  - Planejamento e execução de testes
+
+- **Sprint 4:**
+  - Ajustes finais de layout
+  - Implementação no Angular
+  - Finalização da apresentação
+
+## 6. Criação dos Heróis (Brainstorming)
+
+Definidos heróis com temática satírica e contemporânea:
+
+1. **Capitão Home-Office**
+   - **Origem:** Gerente de projetos atingido por raio durante uma videoconferência.
+   - **Poder:** Cria reuniões obrigatórias com heróis e vilões.
+   - **Arqui-Inimigo:** Dr. Desconexão, que causa caos digital.
+
+2. **Desloca-Pouco**
+   - **Origem:** Desejo de se teletransportar foi concedido, mas só pode se mover 1 cm por vez.
+   - **Poder:** Teletransporte de 1 cm.
+   - **Arqui-Inimigo:** Dr. Inércia, que controla a inércia dos objetos.
+
+3. **Escudo Espumoso**
+   - **Origem:** Químico que desenvolveu bolhas de sabão inquebráveis.
+   - **Poder:** Cria bolhas de sabão indestrutíveis.
+   - **Arqui-Inimigo:** Vácuo Voraz, que desloca as bolhas com vórtices de vácuo.
+
+4. **Visível**
+   - **Origem:** Obteve o poder de ficar invisível quando não é observado.
+   - **Poder:** Invisibilidade condicionada.
+   - **Arqui-Inimigo:** O Vigilante, que monitora tudo com câmeras.
+
+5. **Super Fã**
+   - **Origem:** Fã de shows que recebeu poderes durante um show.
+   - **Poder:** Solta raios laser de sua lightstick, criando caos e confusão.
+   - **Arqui-Inimigo:** Maestro do Caos, que possui o poder da Sinfonia do Caos.
+
+### Aviso Importante
+
+O projeto **Tour of Heroes** é destinado exclusivamente para fins de estudo e desenvolvimento acadêmico. Os heróis apresentados na aplicação são personagens fictícios, criados como parte de um exercício de criatividade e programação. 
+
+Nenhuma das figuras retratadas possui base em pessoas reais, eventos históricos ou qualquer outra forma de realidade. Quaisquer semelhanças com indivíduos, vivos ou falecidos, são meramente coincidências.
+
+Este projeto não tem a intenção de promover ou comercializar quaisquer produtos, marcas ou ideologias. Todo o conteúdo é de caráter fictício e não deve ser interpretado como representação de fatos ou situações reais.
