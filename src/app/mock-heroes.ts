@@ -7,6 +7,7 @@ export const HEROES: Hero[] = [
     origem: 'Durante a pandemia de 2020, quando o mundo inteiro foi forçado a se adaptar ao trabalho remoto, um jovem e talentoso gerente de projetos chamado João Silva descobriu que tinha um talento especial para organizar e conduzir reuniões virtuais. Ele conseguia unir equipes dispersas pelo mundo e resolver conflitos com uma eficiência impressionante. Certo dia, após uma maratona de reuniões, João foi atingido por um raio enquanto estava conectado a uma chamada de vídeo. Em vez de sofrer danos, ele ganhou poderes extraordinários',
     power: 'Super Reunião a Distância - Cria uma reunião obrigatória com todos os heróis e vilões para decidir uma resolução pacífica.',
     arqui_inimigo: 'Dr. Desconexão, com o poder, Caos Digital onde pode lançar ataques cibernéticos que desativam plataformas de trabalho remoto, forçando todos a resolverem problemas cara a cara.    ',
+    imageUrl: 'src/app/assets/images/heroes/01.png'
   },
   {
       id: 2,
