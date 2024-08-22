@@ -18,6 +18,10 @@
     margin: auto;
     color: #FFF;
     }
+    img{
+      max-width: 100%;
+      height: auto;
+    }
     @media (min-width: 600px) {
     body {
         padding: 0;
