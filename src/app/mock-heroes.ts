@@ -34,7 +34,7 @@ export const HEROES: Hero[] = [
       origem: 'Roberto sempre curioso e apaixonado por tecnologia e espionagem. Desde pequeno, ele sonhava em ser um super-herói, mas nunca imaginou que isso se tornaria realidade de uma forma tão peculiar. Um dia, enquanto explorava um laboratório abandonado, Lucas encontrou um dispositivo estranho. Sem saber exatamente o que era, ele o ativou. O dispositivo emitiu uma luz intensa e, de repente, Lucas sentiu uma mudança em seu corpo. Ele havia adquirido a habilidade de ficar invisível, mas com uma condição: ele só poderia ficar invisível quando ninguém estivesse olhando ou quando não pudesse ser detectado por câmeras.',
       power: 'Ficar invisível, mas apenas quando não pode ser visto ou detectado por câmeras, pelo menos ele sabe quando ninguém o está observando.',
       arqui_inimigo: 'O Vigilante, ele é obcecado por monitorar tudo e todos, usando câmeras e tecnologia avançada para manter o controle.',
-      imageUrl: 'assets/images/heroes/04.png',
+      imageUrl: 'assets/images/heroes/05.png',
       imageCard:'assets/images/heroes/cards/H4Visivel.png'
     },
   {
@@ -43,7 +43,7 @@ export const HEROES: Hero[] = [
       origem: 'Em uma cidade vibrante e cheia de vida, onde a música e a cultura pop dominam, nasceu uma fã incondicional de todas as coisas relacionadas a shows e eventos. \n Desde pequena, ela era fascinada por concertos, festivais e qualquer coisa que envolvesse uma plateia animada. Seu nome verdadeiro é desconhecido, mas ela sempre foi chamada de “Super Fã” por seus amigos devido à sua paixão inabalável. \n Um dia, durante um show de sua banda favorita, algo extraordinário aconteceu. No meio da multidão, uma misteriosa luz brilhou intensamente, e uma estranha energia foi canalizada para sua lightstick. A partir desse momento, ela descobriu que podia soltar raios laser poderosos da lightstick, capazes de criar confusão e discórdia onde quer que ela fosse.',
       power: 'Soltar raio laser da lightstick, criar confusão e discórdia por onde passa.',
       arqui_inimigo: 'Maestro do Caos, que tem o poder da Sinfonia do Caos, com sua batuta encantada, ele pode controlar as emoções e ações das pessoas ao seu redor, criando uma sinfonia de caos e desordem.',
-      imageUrl: 'assets/images/heroes/05.png',
+      imageUrl: 'assets/images/heroes/04.png',
       imageCard:'assets/images/heroes/cards/H5SuperFa.png'
     }
 ];
