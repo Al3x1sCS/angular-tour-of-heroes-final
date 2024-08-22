@@ -2,20 +2,23 @@
     <h2>
         <img [src]="hero.imageUrl" alt="" />
     </h2>
-    <div>
-        <label>Nome:
-            <span>{{hero.name}}</span>
-        </label>
+    <div class="infoNomeHeroi">
+        <span>Nome: {{hero.name}}</span>
+    </div>
+    <div class="infoIDHeroi">
         <span>ID: </span>{{hero.id}}
     </div>
-    <div>
-        <div>Origem:
+    <div class="txtInfoHeroi">
+        <div class="paragrafoInfoHeroi">
+            <strong>Origem: </strong>
             <span>{{hero.origem}}</span>         
         </div>
-        <div>Poder:
+        <div class="paragrafoInfoHeroi">
+            <strong>Poder: </strong>
             <span>{{hero.power}}</span>
         </div>
-        <div>Arqui-Inimigo:
+        <div class="paragrafoInfoHeroi">
+            <strong>Arqui-Inimigo: </strong>
             <span>{{hero.arqui_inimigo}}</span>
         </div>
     </div>
