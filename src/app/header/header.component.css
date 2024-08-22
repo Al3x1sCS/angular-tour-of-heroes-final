@@ -1,9 +1,16 @@
 .header{
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 header img{
     width: 390px;
     height: auto;
+    margin: 2rem 2rem 0;
+}
+
+@media (max-width: 600px) {
+    header img{
+    margin: 0;
+    }
 }

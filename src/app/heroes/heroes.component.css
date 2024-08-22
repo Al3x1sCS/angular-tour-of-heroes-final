@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   gap: 20px; /* Espaçamento entre os elementos */
-  padding: .5rem;
-  max-width: 1000px;
+  padding: 2rem;
+  max-width: 95%;
   margin: auto;
 }
 
 .lista-heroes {
-  width: 42%; /* Largura da lista */
+  width: 30%; /* Largura da lista */
   display: flex;
 }
 
@@ -39,16 +39,24 @@
     height: 125px !important;
     width: 125px !important;
   }
+ 
+  .info-heroes img {
+     max-width: 100% !important;
+  }
+
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .lista-heroes {
-    width: 50%;
+    width: 30%;
   }
 
   .info-heroes {
     width: 40%;
     margin-left: 20px;
+    position: absolute;
+    left: 30%;
+    top: 0;
   }
 
   .heroes {

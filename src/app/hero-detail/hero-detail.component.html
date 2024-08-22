@@ -1,21 +1,21 @@
 <div *ngIf="hero">
     <h2>
-        <img [src]="hero.imageUrl" alt="" style="width:200px;height:200px;" />
+        <img [src]="hero.imageUrl" alt="" />
     </h2>
     <div>
-        <label>name:
-            <input [(ngModel)]="hero.name" placeholder="name"/>
+        <label>Nome:
+            <span>{{hero.name}}</span>
         </label>
-        <span>id: </span>{{hero.id}}
+        <span>ID: </span>{{hero.id}}
     </div>
     <div>
-        <div>description:
+        <div>Origem:
             <span>{{hero.origem}}</span>         
         </div>
-        <div>power:
+        <div>Poder:
             <span>{{hero.power}}</span>
         </div>
-        <div>Arqui-inimigo
+        <div>Arqui-Inimigo:
             <span>{{hero.arqui_inimigo}}</span>
         </div>
     </div>
