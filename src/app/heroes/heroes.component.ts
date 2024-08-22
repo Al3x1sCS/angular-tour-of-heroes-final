@@ -28,6 +28,7 @@ import { HeroService } from '../hero.service';
 export class HeroesComponent {
   heroes: Hero[] = HEROES;
   selectedHero?: Hero;
+  imageCard: any;
 
   constructor(private heroService: HeroService) {}
 

@@ -75,27 +75,26 @@
   flex: 1;
   cursor: pointer;
   position: relative;
-  background-color: #EEE;
+  background: transparent;
   margin: .2em;
   padding: 0;
   border-radius: 10px;
   align-items: stretch;
-  height: 200px;
-  width: 200px;
+  height: 178px;
+  width: 178px;
 }
 
 .heroes button:hover {
   color: #2c3a41;
-  background-color: #e6e6e6;
+  border: 2px solid #ff1559;
 }
 
 .heroes button:active {
   background-color: #525252;
-  color: #fafafa;
 }
 
 .heroes button.selected {
-  background-color: black;
+  border: 2px solid #ff1559;
   color: white;
 }
 
@@ -106,10 +105,11 @@
   padding: 0.8em 0.7em 0 0.7em;
   background-color: #405061;
   line-height: 1em;
-  /*margin-right: .8em;*/
+  display: none;
   border-radius: 10px 0 0 10px;
 }
 
 .heroes .name {
   align-self: center;
+  display: none;
 }

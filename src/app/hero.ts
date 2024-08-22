@@ -5,4 +5,5 @@ export class Hero {
     power: string = '';
     arqui_inimigo: string = '';
     imageUrl?: string = '';
+    imageCard?: string = '';
 }
