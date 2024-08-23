@@ -2,16 +2,16 @@
   <div class="lista-heroes">
     <ul class="heroes">
       <li *ngFor="let hero of heroes">
-        <button [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">
+        <a href="#ancoraInfo"><button [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">
           <span class="badge">{{hero.id}}</span>
           <span class="name">{{hero.name}}</span>
           <img [src]="hero.imageCard" alt="{{hero.name}}'s image" class="hero-image">
-        </button>
+        </button></a>
       </li>
     </ul>
   </div>
 
-  <div class="info-heroes">
+  <div id="ancoraInfo" class="info-heroes">
     <app-hero-detail [hero]="selectedHero"></app-hero-detail>
   </div>
 </div>
