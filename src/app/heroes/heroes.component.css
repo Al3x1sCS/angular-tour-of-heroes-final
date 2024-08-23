@@ -90,10 +90,10 @@
  .heroes {
     margin: 0 0 2em 0;
     list-style-type: none;
-    padding: 20px 40px 0;
+    padding: 20px 38px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 10px;
   }
   .lista-heroes {
     width: 100%; /* Largura da lista */
