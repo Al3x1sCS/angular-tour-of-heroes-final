@@ -1,4 +1,4 @@
-<div class="main">
+<div id="ancoraTopo" class="main">
   <div class="lista-heroes">
     <ul class="heroes">
       <li *ngFor="let hero of heroes">
@@ -12,6 +12,9 @@
   </div>
 
   <div id="ancoraInfo" class="info-heroes">
+    <a href="#ancoraTopo" class="ancoraTopo">
+      <img src="assets/images/topo.png" alt="Topo">
+    </a>
     <app-hero-detail [hero]="selectedHero"></app-hero-detail>
   </div>
 </div>
